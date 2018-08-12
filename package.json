@@ -1,0 +1,23 @@
+{
+  "name": "flexbox-cssgrid",
+  "version": "1.0.0",
+  "description": "This project is the live-coding part of the conference I will present at JugSummerCamp 2018.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abenoit/flexbox-cssgrid.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abenoit/flexbox-cssgrid/issues"
+  },
+  "homepage": "https://github.com/abenoit/flexbox-cssgrid#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  }
+}
