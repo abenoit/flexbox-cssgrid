@@ -1,0 +1,33 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.ponies-container {
+  border: 2px solid black;
+}
+
+.pony {
+  padding: 10px 5px;
+  border: 1px dashed deeppink;
+  font-size: 1.5em;
+}
+
+.rainbow {
+  background-color: lightblue;
+}
+
+.twilight {
+  background-color: plum;
+}
+
+.rarity {
+  background-color: lightgray;
+}
+
+.pinkie {
+  background-color: pink;
+}
+
+.apple {
+  background-color: lightsalmon;
+}

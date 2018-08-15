@@ -1,0 +1,17 @@
+.ruled-content {
+  display: flex;
+}
+
+.rule-container {
+  border: 2px solid transparent;
+}
+
+.graduation {
+  padding: 10px 5px;
+  border: 1px solid black;
+  font-size: 1.5em;
+}
+
+.graduation:nth-child(odd) {
+  background-color: lightgray;
+}
