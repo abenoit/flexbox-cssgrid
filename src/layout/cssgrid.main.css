@@ -1,0 +1,51 @@
+body {
+  font-size: 1.6em;
+  text-align: center;
+}
+
+.container {
+  height: 100vh;
+  /* display: grid;
+  grid-template-rows: 150px 1fr 130px;
+  grid-template-columns: 150px 1fr 150px;
+  grid-template-areas:
+    "head head head"
+    "lsidebar contenu rsidebar"
+    "foot foot foot"; */
+}
+
+.header {
+  /* display: grid;
+  grid-template-columns: 100px 1fr 100px;
+  align-items: center; */
+
+  /* grid-area: head; */
+  border: 1px solid red;
+  color: white;
+  background-color: rgb(235, 100, 59);
+}
+
+.left-sidebar {
+  /* grid-area: lsidebar; */
+  border: 1px solid red;
+  /* width: 200px; */
+}
+
+.right-sidebar {
+  /* grid-area: rsidebar; */
+}
+
+.content {
+  /* grid-area: contenu; */
+  border: 1px solid red;
+}
+
+.footer {
+  /* grid-area: foot; */
+  height: 100px;
+  line-height: 150px;
+  font-size: 0.7em;
+  border: 1px solid red;
+  color: white;
+  background-color: rgb(235, 100, 59);
+}

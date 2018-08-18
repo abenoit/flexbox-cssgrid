@@ -1,0 +1,40 @@
+body {
+  font-size: 1.6em;
+  text-align: center;
+  height: 100vh;
+}
+
+.flex {
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.header {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  padding: 20px 0;
+  border: 1px solid red;
+  color: white;
+  background-color: rgb(235, 100, 59);
+}
+
+.sidebar {
+  line-height: 200px;
+  border: 1px solid red;
+  /* width: 200px; */
+}
+
+.content {
+  /* flex: 1; */
+  border: 1px solid red;
+}
+
+.footer {
+  height: 100px;
+  line-height: 150px;
+  font-size: 0.7em;
+  border: 1px solid red;
+  color: white;
+  background-color: rgb(235, 100, 59);
+}
