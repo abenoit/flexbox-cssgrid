@@ -1,0 +1,23 @@
+<head>
+  <title> Flexbox & CSS-grid </title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <script>
+    const check = checkbox => {
+      checkbox.parentElement.className = checkbox.checked ? 'item done' : 'item';
+    }
+
+  </script>
+</head>
+
+<body>
+  <h1>Mojito Shopping List</h1>
+  <div class="shopping-list">
+    <div class="item "> <input type="checkbox" onclick="check(this)" /> Menthe</div>
+    <div class="item"> <input type="checkbox" onclick="check(this)" /> Rhum</div>
+    <div class="item"> <input type="checkbox" onclick="check(this)" /> Eau gazeuse</div>
+    <div class="item  "> <input type="checkbox" onclick="check(this)" /> Glaçons</div>
+    <div class="item "> <input type="checkbox" onclick="check(this)" /> Sucre roux</div>
+    <div class="item "> <input type="checkbox" onclick="check(this)" /> Citrons verts</div>
+  </div>
+</body>
