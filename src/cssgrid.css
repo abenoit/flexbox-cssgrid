@@ -1,0 +1,38 @@
+.elt {
+  background-color: pink;
+  border: 1px solid pink;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, 50px);
+  grid-template-rows: repeat(6, 50px);
+}
+
+.one {
+  grid-column-start: 2;
+}
+
+.two {
+  grid-column-start: 6;
+}
+
+.four {
+  grid-column: 5 / span 3;
+}
+
+.three {
+  grid-column: 1 / span 3;
+}
+
+.five {
+  grid-column: 2 / span 5;
+}
+
+.six {
+  grid-column: 3 / span 3;
+}
+
+.seven {
+  grid-column: 4;
+}
