@@ -12,6 +12,33 @@ body {
   font-size: 1.5em;
 }
 
+.number {
+  padding: 0 10px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.rainbow .number {
+  border: 1px solid blue;
+}
+
+.twilight .number {
+  border: 1px solid purple;
+}
+
+.rarity .number {
+  border: 1px solid grey;
+}
+
+.pinkie .number {
+  border: 1px solid deeppink;
+}
+
+.apple .number {
+  border: 1px solid orangered;
+}
+
 .rainbow {
   background-color: lightblue;
 }
