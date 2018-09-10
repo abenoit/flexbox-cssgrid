@@ -39,6 +39,10 @@ body {
   border: 1px solid orangered;
 }
 
+.fluttershy .number {
+  border: 1px solid peru;
+}
+
 .rainbow {
   background-color: lightblue;
 }
@@ -57,4 +61,8 @@ body {
 
 .apple {
   background-color: lightsalmon;
+}
+
+.fluttershy {
+  background-color: papayawhip;
 }
